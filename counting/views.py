@@ -17,7 +17,6 @@ def model_form_upload(request):
             path = "documents/" + str(form.cleaned_data.get('document'))
             image_path = os.path.abspath(path)
             count = models.msfanet(image_path)
-            print(count)
             return redirect('upload')
     else:
         form = DocumentForm()
