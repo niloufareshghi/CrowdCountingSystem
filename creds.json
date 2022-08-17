@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "circular-light-358214",
+  "private_key_id": "2f3bb49704feec06f91ba7b60a6d35a470bd9197",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCVVmPEiUjN/+/7\nzp1rZW4uwTAeKcBwJwZny2Jkyz04ztoWnTnMsZE+HNVDfebMUlUt/ibei4QaY4jW\nWndgDtZec0vd/hNnIVstMNX73q6rR7w98/5KmDB9LfFOklv0AMK17hC1y69F+WKd\nMslenQB29f74udyqaSQBSovwdsKilu3LRGlhFq7rIGrBUO2a2HZMZwy3wJp1M3f4\njAlwXBcYsp5yBTK6q1kPA04kpGMZ9YK/7pN/owBXaJolxEl6OQrximalVUZ/cuQe\n5C7YO6SJmTKKDxp6Jv3W7xxnshX6jbDI1Pcr0zbJ0nePbQYwl78rrTVX6GWS4Azi\nE/PxAFYnAgMBAAECggEAMJOnZFjby9aC87/jyPl3e9HvmwAtzs2C8eRgnzTVN1Nh\n8ZU3JfRksHWkkY20s6Xce1d+wUlUsVjLPB61UhPBe3u5o/5vxU4+YFbQZFutKZ3u\nB6EEiLM0oqN9KPfG3XoZ3CASY3BcFUDn6QaKJjKf4hJm2/VpaC1HPvxGxPN8oHJE\nrIaf8mpFUsCTRieDD+RKn649dFuyHEOCxtx8M1rFzOXBCrVQEmD4xrDt73MqxnCr\nea2tU/OflHuliNgqF70AP7qBO6/gPnULBIyqRNEbg2DYOdNzupkal9v82avJraXa\nwIY067p0SQ3Y9BB6qX/We/Ja+MVqLMj7fDikD65UQQKBgQDIpnhyZ1xB0oR4fFn1\nODaJ9u6aVLaKhYQTsV/qhvPx8lfmUDFooJoDwYUb8E5nYH3S7vipcUXME6pyX/T+\nbwOsOAl9RvqG9arHTQIqzW3I/278WQwo+RkQ1Xm0SsQvQLOibCsx/rXOa+g2I5Al\nLPAxSGsUyHfvv5L37ukNhNZmEQKBgQC+iE8FcgcwP4SyhNEzVK+tyxKZmZGWBm8b\n6NdmLEJaIsf5ekEtwM6ZcZgs3jiC7CBouJG55+zPGkY2g2386rMyVPt1y5JZVzvh\n0Hg743iqFRORcvFYFMxwwLmhlyU+rxkAI6J5w0c+3vVNq9PdH6049xxJ+f/O1Lpt\n3xBJGwdgtwKBgQCDHhWTXOuyr6iVO11lmyg4m75r53OprXoTjFNLZIjA0EaUYE8J\nOfmq/qjHCw+RCkLute6Ue0rLAwbc2su0AEN8JNo+nUVVL/A7cJ077yYQtKqICICj\nvbOdhoKTSFBPOI6qUtkfQHz5uRXzWuX1BRqoedRPrniBmMSnc92jUezwoQKBgCH6\n3VzzQSTxrxDHbyfgapRsKx0JrlU7QIWRuRiXvB2nJlLv4r/uKupiv+kAmMOAqScE\nA7lMC4fD/9GpDuyUTvEjBtWzQJ5+WEeljkvf/Z0XtS2zeidjTjKtrG2NLy9Guwaz\nVD6y/PnReZ4ojthY1ePa7kijNWQFvFnr9lOTZnVxAoGAF3oZQ4wBS3DeXOhPk37i\n4RGgj3XMW67J0b54sVE5XdvWWCECAOS8I1zINBO/E83MA6NWYbhjDjYkUQPFvsAM\nGheOnS8YWQVLIX+D3E2qyfSs+v0N/+pob7uQcio019FOQ/snp/kZZchPiwWfRZNH\nuS8hMf7ruN3G83pxiy5wlFE=\n-----END PRIVATE KEY-----\n",
+  "client_email": "crowdcounting-dev@circular-light-358214.iam.gserviceaccount.com",
+  "client_id": "106100303268717613734",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/crowdcounting-dev%40circular-light-358214.iam.gserviceaccount.com"
+}
