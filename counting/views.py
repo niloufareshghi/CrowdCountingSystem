@@ -3,6 +3,7 @@ from django.http import HttpResponse
 from django.shortcuts import redirect, render
 from counting.forms import DocumentForm
 from CrowdCountingModels import models
+from counting.models import FileModel
 
 
 def index(request):
@@ -23,3 +24,15 @@ def model_form_upload(request):
     return render(request, 'image_upload.html', {
         'form': form
     })
+
+
+def api(request):
+    file_model = FileModel()
+    _, file = request.FILES.popitem()  # get first element of the uploaded files
+
+    file = file[0]  # get the file from MultiValueDict
+
+    file_model.file = file
+    file_model.save()
+
+    return HttpResponse(content_type='text/plain', content='File uploaded')
