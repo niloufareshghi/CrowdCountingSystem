@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y python3-opencv
 RUN python -m venv /py && \
     /py/bin/pip install --upgrade pip && \
     /py/bin/pip install -r /requirements.txt && \
-    /py/bin/pip install torch==1.12.0 torchvision==0.13.0 torchaudio===0.12.0 -f https://download.pytorch.org/whl/cu116/torch_stable.html && \
+    /py/bin/pip install torch==1.12.0 torchvision==0.13.0 torchaudio===0.12.0 -f https://download.pytorch.org/whl/cu116/torch_stable.html --no-cache-dir && \
     adduser --disabled-password --no-create-home django-user
 
 ENV PATH="/py/bin:$PATH"
