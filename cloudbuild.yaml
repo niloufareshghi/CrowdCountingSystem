@@ -6,6 +6,7 @@ steps:
   - id: "push image"
     name: "gcr.io/cloud-builders/docker"
     args: ["push", "gcr.io/${PROJECT_ID}/${_SERVICE_NAME}"]
+    timeout: 1200s
 
   - id: "deploy prod service"
     name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
@@ -44,5 +45,7 @@ steps:
 substitutions:
   _SERVICE_NAME: crowdcountingsystem
   _REGION: us-central1
+
+timeout: 3600s
 
 # zone = us-central1-a
