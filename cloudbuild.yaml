@@ -43,4 +43,4 @@ steps:
 
 substitutions:
   _SERVICE_NAME: crowdcountingsystem
-  _REGION: northamerica-northeast2
+  _REGION: us-central1
