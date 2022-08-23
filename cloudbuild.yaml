@@ -44,3 +44,5 @@ steps:
 substitutions:
   _SERVICE_NAME: crowdcountingsystem
   _REGION: us-central1
+
+# zone = us-central1-a
