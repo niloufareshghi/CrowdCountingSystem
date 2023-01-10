@@ -11,7 +11,5 @@ class DocumentForm(forms.ModelForm):
     def clean(self):
         file_path = "documents/" + str(self.cleaned_data.get('document'))
         path = os.path.abspath(file_path)
-        if os.path.isfile(path):
-            raise ValidationError('File already exists')
         return self.cleaned_data
 
