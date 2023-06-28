@@ -1,15 +1,22 @@
 from django import forms
-from counting.models import Document
 import os
 from django.core.exceptions import ValidationError
 
-class DocumentForm(forms.ModelForm):
-    class Meta:
-        model = Document
-        fields = ('document', )
+from django import forms
+
+CHOICES = [
+    ('msfa', 'MSFANet'),
+    ('can', 'CAN'),
+    ('p2p', 'P2PNet'),
+    ('smart', 'Smart'),
+    ]
+
+
+class ImageForm(forms.Form):
+    document = forms.FileField()
+    method = forms.CharField(label='Choose Your Desired Crowd Counting Method', widget=forms.Select(choices=CHOICES))
 
     def clean(self):
-        file_path = "documents/" + str(self.cleaned_data.get('document'))
+        file_path = "uploaded_files/" + str(self.cleaned_data.get("document"))
         path = os.path.abspath(file_path)
         return self.cleaned_data
-
