@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <head>
+        <meta charset="UTF-8">
+        <title>HOME</title>
+    </head>
+
+    <h1 style="font-size:70px; color:purple; margin:10px;">Welcome To Our Crowd Counting App!</h1>
+    <div style="margin-top: 30px; background-color:lightpink; width: 500px;padding: 10px;border-radius: 10px;">
+    This is a crowd counting application which helps you count crowds in images with different features! Try it yourself ;)
+    </div> </br>
+    <button type="submit" style="width: 30%;" onclick="window.location = 'https://github.com/niloufareshghi/CrowdCountingSystem/blob/master/final%20proposal.pdf';">READ MORE</button>
+    <button type="submit" style="width: 30%;" onclick="location.href='{% url 'upload' %}'">TRY ME</button>
+{% endblock %}
