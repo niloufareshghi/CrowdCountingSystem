@@ -8,6 +8,6 @@ This project report presents the development of a smart crowd-counting system le
 
 ![249506074-36df7c94-8fca-45c9-90db-a53bbdf19346](https://github.com/niloufareshghi/CrowdCountingSystem/assets/47944007/9f1ccd91-5209-4a0e-92d2-8acda89c4096)
 ![249506192-0a46018e-ba2d-457a-91e0-99d148b91339](https://github.com/niloufareshghi/CrowdCountingSystem/assets/47944007/245b55b7-cf7c-4527-888b-69b876a763a1)
-![249506244-3924b77b-add0-4cb0-9837-bdb1470c1366](https://github.com/niloufareshghi/CrowdCountingSystem/assets/47944007/ffb24fae-5935-4538-bd8b-cc22925cfd78)
+![249506244-3924b77b-add0-4cb0-9837-bdb1470c1366](https://github.com/niloufareshghi/CrowdCountingSystem/assets/47944007/d8962804-aa15-489f-8853-825c87deb34d)
 
 
